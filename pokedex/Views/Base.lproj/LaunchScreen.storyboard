@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashScreen" translatesAutoresizingMaskIntoConstraints="NO" id="lFC-Ha-SUN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PokedexLogo" translatesAutoresizingMaskIntoConstraints="NO" id="usZ-7C-uDp">
+                                <rect key="frame" x="132" y="384" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="xRb-Px-OJE"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ITJ-logo" translatesAutoresizingMaskIntoConstraints="NO" id="4xh-GQ-8AC">
+                                <rect key="frame" x="177" y="733" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="udP-Cd-aE9"/>
+                                    <constraint firstAttribute="width" constant="60" id="wo0-9x-4My"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="lFC-Ha-SUN" secondAttribute="bottom" id="OEL-FA-BAP"/>
+                            <constraint firstItem="lFC-Ha-SUN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Osl-xP-l53"/>
+                            <constraint firstItem="usZ-7C-uDp" firstAttribute="centerX" secondItem="lFC-Ha-SUN" secondAttribute="centerX" id="RPz-ll-yJP"/>
+                            <constraint firstItem="usZ-7C-uDp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="XpV-5H-VSP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4xh-GQ-8AC" secondAttribute="bottom" constant="69" id="csJ-KN-qXd"/>
+                            <constraint firstItem="lFC-Ha-SUN" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ssw-CK-cfX"/>
+                            <constraint firstAttribute="trailing" secondItem="lFC-Ha-SUN" secondAttribute="trailing" id="tXo-El-7pn"/>
+                            <constraint firstItem="4xh-GQ-8AC" firstAttribute="centerX" secondItem="usZ-7C-uDp" secondAttribute="centerX" id="umJ-T7-aC8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="usZ-7C-uDp" secondAttribute="bottom" constant="328" id="yyu-td-GKy"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ITJ-logo" width="63" height="63"/>
+        <image name="PokedexLogo" width="183" height="183"/>
+        <image name="SplashScreen" width="428" height="926"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
